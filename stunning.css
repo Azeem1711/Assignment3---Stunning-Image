@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    margin: 25px 50px 25px 60px;
+}
+
+#topbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    font-family: 'Roboto', sans-serif;
+    margin: 40px;
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+    opacity: .5;
+}
+
+.menu:hover{
+ font-weight: bold;
+ opacity: 1;
+ border-bottom: 3px solid #8071D0;
+}
+
+#act-btn{
+    padding: 16px 20px;
+    border-radius: 18px;
+    color: #A389CC;
+    border: none;
+    font-weight: bold;
+    font-size: 12px;
+    background-color: #FFD8DB;
+}
+
+#main{
+    display: flex;
+}
+
+#main-seg{
+    width: calc(40% - 100px);
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: auto;
+    border: 1px solid white;
+}
+
+#heading{
+    margin-top: 20px;
+    font-size: 60px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+}
+
+#full-stop{
+    color: #5243c0;
+}
+
+#para{
+    font-family: 'Poppins', sans-serif;
+}
+
+#new-btn{
+    padding: 15px 30px;
+    border-radius: 20px;
+    color: white;
+    background-color: #5243c0;
+    border: none;
+}
+
+#btn{
+    display: flex;
+    justify-content: flex-start;
+}
+
+#btn img{
+    margin-left: 5px;
+}
+
+.user-sec{
+    width:100%;
+    background-color: whitesmoke;
+    margin: 5px 0px;
+    border-radius: 8px;
+    box-shadow: 0 0 4px whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.user-sec img{
+    width: 25px;
+    height: 25px;
+}
+
+#users{
+    margin-top: 50px;
+}
+
+.text{
+    display: inline-block;
+    width:25%;
+}
+
+.user-sec > p{
+    display: inline-block;
+    width:25%;
+    opacity: 0.5;
+}
+
+.colour-pink{
+    height: 10px;
+    width: 20px;
+    border-radius: 4px;
+    background-color: #FED7DA;
+    display: inline-block;
+}
+
+.colour-red{
+    height: 10px;
+    width: 20px;
+    border-radius: 4px;
+    background-color: #FD6534;
+    display: inline-block;
+}
+.colour-green{
+    height: 10px;
+    width: 20px;
+    border-radius: 4px;
+    background-color: #9ED095;
+    display: inline-block;
+}
+.colour-yellow{
+    height: 10px;
+    width: 20px;
+    border-radius: 4px;
+    background-color: #FFE4A0;
+    display: inline-block;
+}
+
+.user-sec:hover{
+    background-color: white;
+    box-shadow: 0 0 4px whitesmoke;
+}
+
+#image{
+    display: flex;
+    align-content: center;
+    width: 50%;
+    margin: 30px 100px 10px 20px;
+}
